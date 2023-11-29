@@ -1,0 +1,170 @@
+body{
+    background-color:#FFE2E2 ;
+}
+h1{
+    font-size: 50px;
+   text-decoration: none;
+   font-family: 'Caveat', cursive;
+   color: #8785A2;
+}
+h1:hover{
+    text-transform: uppercase;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h3,h4{
+    font-family: 'Caveat', cursive;
+
+    font-size: 40px;
+    color: #8785A2;
+}
+.item{
+    position: relative;
+    height: 90vh;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Caveat', cursive;
+
+    flex:1;
+}
+.container{
+    display: flex;
+    
+}
+h4{
+    position: absolute;
+    top: 10px;
+    left:30px;
+    background-color:#F6F6F6 ;
+    color: #424874;
+    font-size: 0;
+
+}
+ins{
+    background-color: #FFE2E2;
+    color: black;
+}
+.par{
+    position: absolute;
+    top:220px;
+    left:35px;
+    background-color:#8785A2;
+    color: #F6F6F6;
+    font-size: 0;
+}
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color:#F6F6F6;
+    color: #424874;
+    font-size: 0;
+
+}
+.selected{
+    flex:4;
+}
+.selected h4{
+    font-size: 40px;
+    transition: all 2s ease-in;
+}
+.selected .par{
+    font-size: 15px;
+    transition: all 2s ease-in;
+}
+.selected .price{
+    font-size: 25px;
+    transition: all 2s ease-in;
+}
+label{
+    font-family: 'Caveat', cursive;
+
+    font-size: 35px;
+}
+.text{
+    border-radius: 15px;
+    border: 0.3px solid #8785A2;
+    padding: 20px 15px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    background-color: #F6F6F6;
+    color: #8785A2;
+}
+.btn{
+    font-family: 'Caveat', cursive;
+
+    font-size: 30px;
+    background-color: #8785A2;
+    flex:1;
+}
+
+.one{
+    background-image: url(https://media.istockphoto.com/photos/middle-aged-woman-receiving-facial-treatment-at-spa-salon-picture-id1415198720?b=1&k=20&m=1415198720&s=170667a&w=0&h=d73kWjGhn9Pw0uu6rAezh2EZaYyc0dOaEajlvIbvNeU=);
+    border-radius: 30px;
+}
+.two{
+    background-image: url(https://images.unsplash.com/photo-1633793566243-4fda48959d28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvc21ldG9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.three{
+    background-image: url(https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGh5ZHJvJTIwZmFjaWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.four{
+    background-image: url(https://images.unsplash.com/photo-1512303385664-9f4339ecc3f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGh5ZHJvJTIwZmFjaWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.five{
+    background-image: url(https://images.unsplash.com/photo-1516815989420-9cb5ef0fce78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGh5ZHJvJTIwZmFjaWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.six{
+    background-image: url(https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2xhc3NpYyUyMGxhc2glMjBleHRlbnNpb25zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.seven{
+    background-image: url(https://images.unsplash.com/photo-1492618269284-653dce58fd6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGNsYXNzaWMlMjBsYXNoJTIwZXh0ZW5zaW9uc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+.eight{
+    background-image: url(https://images.unsplash.com/photo-1588398478692-d119ca406f7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGNsYXNzaWMlMjBsYXNoJTIwZXh0ZW5zaW9uc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    border-radius: 30px;
+}
+
+.header,.img-container,.btnn{
+    display: flex;
+  justify-content: center;
+}
+img{
+    border-radius: 20px;
+}
+h2{
+    font-family: 'Caveat', cursive;
+
+    font-size: 35px;
+    color: #8785A2;
+}
+.btnn{
+    padding: 10px;
+ 
+}
+#one,#two{
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    border: 0.3px solid #8785A2;
+    color: #8785A2;
+    font-weight: bold;
+}
+p{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    color: #8785A2;
+}
